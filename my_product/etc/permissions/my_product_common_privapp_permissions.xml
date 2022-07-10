@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <!-- zhaoyiming@APP.OneLauncher, 2021/09/13 , add for com.oplus.onelauncher app to grant permission -->
+    <privapp-permissions package="com.oplus.onelauncher">
+        <permission name="android.permission.CAPTURE_AUDIO_OUTPUT" />
+    </privapp-permissions>
+</permissions>

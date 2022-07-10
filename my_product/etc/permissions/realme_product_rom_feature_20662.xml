@@ -1,0 +1,4 @@
+<permissions>
+    <!-- xiaohu.mei@ANDROID.PMS, 2016/02/17, add for oppo security pay -->
+    <feature name="oppo.securitypay.support" />
+</permissions>

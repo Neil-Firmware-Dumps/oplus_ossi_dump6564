@@ -1,0 +1,11 @@
+my_stock.img
+my_bigball.img
+my_heytap.img
+system_ext/apex/com.android.vndk.v30.apex
+system_ext/priv-app/SystemUI/SystemUI.apk
+system_ext/priv-app/Settings/Settings.apk
+odm/etc/camera/model/license.lic
+odm/etc/camera/sensetime
+odm/etc/camera/license_release_fdc.lic
+odm/etc/fad/license.lic
+my_product/app/OplusCamera/OplusCamera.apk

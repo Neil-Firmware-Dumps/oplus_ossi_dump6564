@@ -1,0 +1,88 @@
+<!-- resolutionID的值，智能切换为1,低分辨率为2，高分辨率为3 -->
+<!-- idmask = 1 左移 resolutionID值的结果  -->
+<!-- 不支持分辨率切换的机器，只有智能模式生效 -->
+<!-- 固定density的app不能添加到智能分辨率名单中  -->
+<!--Display Compat mode-->
+<sys_resolution_switch_config version="20211207" filemagic="androidS" screenwidth="1080">
+<!-- 1440 * 0.75 = 1080,640 * 0.75 = 480 -->
+<scaleinfo value="1.5,0.666667,320" />
+<!-- auto or qhd+  force to low resolution example -->
+<item package="com.example.force" idmask="1010" />  <!-- xxx -->
+<!-- auto force to low resolution example -->
+<item package="com.example.test1" idmask="0010" scaleinfo="1.5,0.6666667,420" />  <!-- xxx -->
+<item package="com.kiloo.subwaysurf" idmask="0010" />  <!-- 地铁跑酷 -->
+<item package="com.imangi.templerun2" idmask="0010" />  <!-- 神庙逃亡2 -->
+<item package="com.netease.dhxy.nearme.gamecenter" idmask="0010" scaleinfo="1.33333333334,0.75,360" />  <!-- 大话西游 -->
+<item package="com.cocos2d.fishingfun.nearme.gamecenter" idmask="0010" scaleinfo="1.33333333334,0.75,360" />
+<item package="org.cocos2d.fishingjoy3" idmask="0010" scaleinfo="1.33333333334,0.75,360" />
+<item package="org.cocos2dx.FishingJoy2" idmask="0010" scaleinfo="1.33333333334,0.75,360" />
+<item package="com.gbits.atm.nearme.gamecenter" idmask="0010" scaleinfo="1.33333333334,0.75,360" />
+<item package="com.nextwave.wcc2" idmask="0010" />  <!-- World Cricket Championship -->
+<item package="com.dts.freefireth" idmask="0010" />
+<item package="com.mobile.legends" idmask="0010" />
+<item package="com.ngame.allstar.eu" idmask="0010" />
+<item package="com.garena.game.kgtw" idmask="0010" />
+<item package="com.garena.game.kgvn" idmask="0010" />
+<item package="com.netmarble.penta" idmask="0010" />
+<item package="com.garena.game.kgth" idmask="0010" />
+<item package="com.garena.game.kgsam" idmask="0010" />
+<item package="com.garena.game.kgvntest" idmask="0010" />
+<item package="com.garena.game.kgcn" idmask="0010" />
+<item package="com.garena.game.kges" idmask="0010" />
+<item package="com.garena.game.kgid" idmask="0010" />
+<item package="com.tencent.ig" idmask="0010" />
+<item package="com.tencent.iglite" idmask="0010" />
+
+<item package="com.nearme.play" idmask="0010" />
+<item package="com.miHoYo.bh3.nearme.gamecenter" idmask="0010" />  <!--崩坏3-->
+<item package="com.netease.moba.nearme.gamecenter" idmask="0010" />  <!--决战！平安京-->
+<item package="com.tencent.qs" idmask="0010" />  <!--秦时明月世界-->
+<item package="com.mfp.jelly.oppo" idmask="0010" />
+<item package="com.kiloo.subwaysurf" idmask="0010" />
+<item package="com.zengame.zrttddz.nearme.gamecenter" idmask="0010" />
+<item package="com.qqgame.happymj" idmask="0010" />
+
+
+<item package="com.outfit7.mytalkingtomfree.nearme.gamecenter" idmask="0010" />
+<item package="com.tencent.peng" idmask="0010" />
+<item package="com.turbochilli.rollingsky_cn.nearme.gamecenter" idmask="0010" />
+
+<item package="com.hlddz.nearme.gamecenter" idmask="0010" />
+<item package="com.zengame.ttddzzrb.nearme.gamecenter" idmask="0010" />
+<item package="com.supercell.clashofclans.nearme.gamecenter" idmask="0010" />
+<item package="com.pokercity.bydrqp.nearme.gamecenter" idmask="0010" />
+<item package="com.pfu.popstar" idmask="0010" />
+<item package="com.outfit7.mytalkingtom2.nearme.gamecenter" idmask="0010" />
+<item package="com.fgol.oppo" idmask="0010" />
+<item package="com.ledou.mhhy.nearme.gamecenter" idmask="0010" />
+<item package="com.cmcm.arrowio_cn.nearme.gamecenter" idmask="0010" />
+<item package="com.tencent.game.rhythmmaster" idmask="0010" />
+<item package="com.cmplay.dancingline.nearme.gamecenter" idmask="0010" />
+<item package="com.outfit7.mytalkinghank.nearme.gamecenter" idmask="0010" />
+<item package="com.brianbaek.popstar" idmask="0010" />
+<item package="com.gameloft.android.ANMP.GloftDMCN" idmask="0010" />
+<item package="com.outfit7.herodash.nearme.gamecenter" idmask="0010" />
+<item package="cn.jj" idmask="0010" />
+<item package="com.soulgame.bear.nearme.gamecenter" idmask="0010" />
+<item package="wb.gc.xmxx.zxb" idmask="0010" />
+<item package="com.halfbrick.fruitninja" idmask="0010" />
+<item package="com.joym.xiongdakuaipao" idmask="0010" />
+<item package="com.outfit7.mytalkingangelafree" idmask="0010" />
+<item package="com.tencent.qqgame.xq" idmask="0010" />
+<item package="com.happyelements.AndroidClover.nearme.gamecenter" idmask="0010" />
+<item package="com.outfit7.talkingtompool.nearme.gamecenter" idmask="0010" />
+<item package="com.rovio.angrybirds.op" idmask="0010" />
+<item package="com.supercell.boombeach.nearme.gamecenter" idmask="0010" />
+<item package="com.netease.hyxd.nearme.gamecenter" idmask="0010" />  <!--荒野行动-->
+<item package="com.fgol.hsw.nearme.gamecenter" idmask="0010" />
+<item package="com.popcap.pvz2op" idmask="0010" />
+<item package="com.yodo1.OPPO_01.SkiSafari" idmask="0010" />
+<item package="com.hero.sm.nearme.gamecenter" idmask="0010" />
+<item package="com.tencent.tmgp.wuxia" idmask="0010" />  <!--天涯明月刀-->
+<item package="com.sgshd.nearme.gamecenter" idmask="0010" />
+<item package="com.yunbu.bubbleelfsaga.nearme.gamecenter" idmask="0010" />
+<item package="com.yodo1.ctr2.OPPO_01" idmask="0010" />
+<item package="com.bilibili.zzzj.nearme.gamecenter" idmask="0010" />  <!--重装战姬-->
+<item package="com.jsdw.Kbunainai.nearme.gamecenter" idmask="0010" />
+<item package="com.carrot.iceworld" idmask="0010" />
+</sys_resolution_switch_config>
